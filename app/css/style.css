@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+}
+
+.arrow-field {
+    text-align: center;
+    min-width: 300px;
+}
+
+.display {
+    min-width: 400px;
+    text-align: center;
+}
+
+.arrow-field, .display {
+    border: 1px solid black;
+    min-height: 50em;
+}
+
+.arrow {
+    width: 90%;  
+    position: relative;
+    top: 30%;  
+    cursor: pointer;
+    transition: ease 0.6s;
+}
+
+.arrow:hover {
+    width: 98%;  
+    top: 29%;  
+}
+
+.container {
+    margin-top: 10%;
+}
+
+.main-img {
+    text-align: center;
+}
